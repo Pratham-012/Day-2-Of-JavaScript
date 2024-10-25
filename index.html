@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 align="center">JavScript can display the data in diferent ways</h1>
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <h2>innerHTML()</h2>
+        <p id="demo1">this is my pen</p>
+        <button onclick="document.getElementById('demo1').innerHTML='No! I am sorry'">Really</button>
+    </div>
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <h2>document.write()</h2>
+        <p id="demo2">What inside the button</p>
+        <button onclick="document.write('5+5')">Find Here</button>
+    </div>
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <h2>Windows.alert()</h2>
+        <p id="demo3">Where the Hero</p>
+        <button onclick="window.alert('Her is your Hero')">Find Here</button>
+    </div>
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <h2>console.log()</h2>
+        <p id="demo3">You can not see me this much easily. Please right write click and go on inspact</p>
+        <button onclick="console.log('here I am!!')">Dhoondo</button>
+    </div>
+    <div style="display: flex; flex-flow: column; align-items: center; justify-content: center;">
+        <h2>windows.print()</h2>
+        <p id="demo3">Take a print to remeber what we learn on this repo</p>
+        <button onclick="window.print()">Print me!</button>
+    </div>
+</body>
+</html>
